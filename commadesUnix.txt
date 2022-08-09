@@ -1,0 +1,22 @@
+*******************************************************************************
+connexion à postgresql
+*******************************************************************************
+sudo -u postgres psql : ouvrir la connexion à postgresql
+\l : lister les bases de donnees existantes
+\c  nom de base de donnees : connexion à la base de donnees spécifié
+\dt: lister les tables existantes dans la base de donnees 
+\q : quitter le terminal
+*******************************************************************************
+arret/demarrage tomcat
+*******************************************************************************
+/home/procheck/apache-tomcat-8.5-RECRUTE/bin# ./shutdown.sh -> pour arreter tomcat
+/home/procheck/apache-tomcat-8.5-RECRUTE/bin ./catalina.sh start -> pour demarrer tomcat
+*******************************************************************************
+mkdir nomdossier : creer un dossier
+rmdir nomdossier : supprimer un dossier
+ls : lister les noms des fichiers dans un répertoire particulier.
+chmod 644 nom fichier : attribution de droits d’accès d'un fichier et permet de modifier les permissions d’un fichier, (644 représente les autorisations et il peut changer)
+ls -l nom fichier : voir les autorisations de fichier et les propriétaires
+ifconfig : affichera tous les détails des interfaces actives. La commande ifconfig permet également de vérifier l’adresse IP attribuée à un serveur
+cd path : aller au répertoire spécifié
+sudo su : vous permet d'exécuter des programmes en tant qu'autre utilisateur, par défaut l'utilisateur root
